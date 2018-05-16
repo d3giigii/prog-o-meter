@@ -25,28 +25,7 @@ __NOTES:__
   * __STEP 7__: We do not currently have any tests, so for now ignore this step. (If you are interested in working on writing tests, please let me now).
   
 ### Commenting your code
-__IMPORTANT:__ Please do not let any of the following discourage you from contributing. If you need further explanation of anything, please ask. If you are not sure your contribution follows the guidelines, __DO NOT FRET__, please submit a pull-request regardless, and we will help you make any necessary changes, before we merge. 
-
-No one is perfect! I am 100% sure you will find things in the current code, that do not follow the guidelines below. If you do, please either fix it, and submit a pull request so we can improve, or let us know by opening an issue, so someone else can fix it.
-
-An important part of keeping this project newbie friendly, is that we maintain good documentation. 
-A more thorough style guide will be produced as soon as possible, for now here are some guidelines. Also, check out existing code, or feel very free to ask, when you are not sure.
-* We document all functions, methods and classes with docstring ([Python for beginners on docstrings](http://www.pythonforbeginners.com/basics/python-docstrings))
-* Contrary to some styleguides we do comment certain parts of code with inline comments. We comment all control flows, to make it easier for new programmers to understand existing code (#This is an inline comment) We put 8 spaces, before putting the inline comment
-* We comment if/elif/else-statements (give an explanation of the condition, and what happens if the block is executed)
-```#python
-  if self.days >=self.GOAL:        # Disable add_day_button if goal have been reached 
-    self.add_day_button.config(state = "disabled") 
-```
-  * We comment for-statements (give an explanation of the loop condition, and what happens inside the loop)
-```#python
-  for i in range(self.days):        # Color a rectangle pr. completed day blue (from left to right)
-    self.canvas.itemconfig(self.rectangle_list[i], fill = "blue")
-```
-  * We comment while-statement (give an explanation of the loop condition, and what happens inside the loop)
-    Sorry, no current example - will add one as soon as possible
-* We give our variables, functions, classes, etc. good descriptive names (This is hard, and I very much appreciate any suggestions for changes of current names, that could be improved).
-  * We follow [google's naming guidelines](https://google.github.io/styleguide/pyguide.html?showone=Naming#Naming)
+Before starting the work, give the [style guide](style_guide.md) a read for information on how to properly format and document what you've written. If you have any questions, or notice any errors, feel free to open an issue or comment on it in your pull request. 
 
 # How to in github:
 
