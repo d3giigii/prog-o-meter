@@ -40,8 +40,8 @@ We deviate from these formats in an effort to remain **beginner friendly**.
 
 ### Inline Comments
 You should document all loop and control structures with inline comments. 
-These comments should be indented at least 8 spaces after the end of the line, and the indentation for each check and statement should match. 
-Indentation should match with tier i.e. in for-while loop; the for comment should be 4 spaces leftward of while comment. 
+These comments should be indented at least 8 spaces after the end of the line. 
+Indentation of the comment should match indentation of the line it describes. 
 There should be a space after each '#', and the first letter of the comment should be captialized. 
 Ex. 
 ```python
