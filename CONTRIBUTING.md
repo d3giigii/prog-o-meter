@@ -25,7 +25,7 @@ __NOTES:__
   * __STEP 7__: We do not currently have any tests, so for now ignore this step. (If you are interested in working on writing tests, please let me now).
   
 ### Commenting your code
-Before starting the work, give the [style guide](style_guide.md) a read for information on how to properly format and document what you've written. If you have any questions, or notice any errors, feel free to open an issue or comment on it in your pull request. 
+Before starting the work, give the [style guide](style_guide.md) a read for information on how to properly format and document what you've written. If you have any questions, feel free to open an issue and ask. If you are not sure you have done everything correctly, don't worry, just tell us in your pull request if there is anything you are unsure about, and we will help you get it right.
 
 # How to in github:
 
